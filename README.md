@@ -193,46 +193,6 @@ ClinicalBERT has the lowest Brier score (0.195). All three models exceed the maj
 
 > The tabular and text experiments use different feature representations, so their absolute numbers are complementary rather than directly comparable.
 
-## 📁 Repository Structure
-
-```
-.
-├── README.md
-├── figures/
-│   ├── fig1_framework.png
-│   ├── fig2_rf_confusion_matrix_severity.png
-│   ├── fig3_knn_confusion_matrix_ns1.jpg
-│   ├── fig4_biobert_confusion_matrix_ns1.png
-│   ├── chart_severity_ml.png
-│   ├── chart_ns1_ml.png
-│   └── chart_ns1_transformers.png
-├── notebooks/          # (add your training notebooks here)
-└── paper/
-    └── ICCIT26_final.pdf
-```
-
-## 🚀 Getting Started
-
-```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-pip install -r requirements.txt
-```
-
-Suggested `requirements.txt`:
-
-```text
-numpy
-pandas
-scikit-learn
-imbalanced-learn
-xgboost
-matplotlib
-seaborn
-torch
-transformers
-nlpaug
-nltk
 ```
 
 ## 🔭 Future Work
@@ -242,17 +202,6 @@ nltk
 - A unified, like-for-like feature comparison across all models and both targets, with bootstrap confidence intervals
 - External validation on other Bangladeshi dengue cohorts and seasons
 
-## 📖 Citation
-
-If you find this work useful, please cite:
-
-```bibtex
-@inproceedings{dengue_ns1_iccit2026,
-  title     = {Dengue Severity Assessment Using Machine Learning and Comparative ML vs Transformer Approaches for NS1 Classification in Bangladesh},
-  author    = {<Author 1> and <Author 2> and <Author 3>},
-  booktitle = {Proceedings of the International Conference on Computer and Information Technology (ICCIT)},
-  year      = {2026}
-}
 ```
 
 ## 🙏 Acknowledgements
