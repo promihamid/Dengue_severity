@@ -193,7 +193,7 @@ ClinicalBERT has the lowest Brier score (0.195). All three models exceed the maj
 
 > The tabular and text experiments use different feature representations, so their absolute numbers are complementary rather than directly comparable.
 
-```
+
 
 ## 🔭 Future Work
 
@@ -202,7 +202,6 @@ ClinicalBERT has the lowest Brier score (0.195). All three models exceed the maj
 - A unified, like-for-like feature comparison across all models and both targets, with bootstrap confidence intervals
 - External validation on other Bangladeshi dengue cohorts and seasons
 
-```
 
 ## 🙏 Acknowledgements
 
